@@ -1,0 +1,86 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column; /* Arrange elements vertically */
+    min-height: 100vh;
+}
+
+/* Manage Users Container */
+.manage-container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 80%; /* Adjusted to be responsive */
+    max-width: 1000px; /* Limit width for large screens */
+    margin: 20px auto; /* Centering */
+    flex-grow: 1;  /* Allow this container to expand */
+}
+
+/* Heading Styles */
+h1 {
+    color: #2c3e50;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+thead {
+    background: #3498db;
+    color: white;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+/* Action Links */
+td a {
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    color: white;
+    font-size: 14px;
+    margin: 0 5px;
+}
+
+td a:first-child {
+    background: #f39c12;
+}
+
+td a:last-child {
+    background: #e74c3c;
+}
+
+td a:hover {
+    opacity: 0.8;
+}
+
+/* Dashboard Button */
+.dashboard-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    cursor: pointer;}
+
+.dashboard-btn:hover {
+    background-color: #555;
+}
+
+
