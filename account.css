@@ -1,0 +1,97 @@
+body, h1, p, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fdbaba;
+    color: #333;
+}
+
+header {
+    background: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #e07e7e;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo img {
+    width: 50px;
+    margin-right: 15px;
+    border-radius: 50%;
+}
+.logo h1 {
+    font-size: 24px;
+    color: #5d2e3f;
+}
+nav ul {
+    display: flex;
+    gap: 30px;
+}
+nav ul li {
+    list-style: none;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #5d2e3f;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+nav ul li a:hover {
+    color: #e07e7e;
+}
+
+
+.account-section {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  
+}
+h1 {
+    color: #5d2e3f;
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: center;
+}
+.profile-info, .purchase-history, .order-tracking {
+    margin-bottom: 20px;
+
+}
+.profile-info h2, .purchase-history h2, .order-tracking h2 {
+    color: #5d2e3f;
+    margin-bottom: 10px;
+    font-size: 20px;
+  
+}
+button {
+    width: 100%;
+    background-color: #ffa3a3;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px; 
+    font-size: 16px; 
+}
+button:hover {
+    background-color: #e07e7e;
+}
+
+footer {
+    
+    color: #5d2e3f;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px; 
+    background-color: #e07e7e;
+}

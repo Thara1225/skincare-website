@@ -1,0 +1,84 @@
+body, h1, p, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fdecea;
+    color: #333;
+}
+
+
+header {
+    background: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #e07e7e;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo img {
+    width: 50px;
+    margin-right: 15px;
+    border-radius: 50%;
+}
+.logo h1 {
+    font-size: 24px;
+    color: #5d2e3f;
+}
+
+
+.registration-form {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 40px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    color: #5d2e3f;
+    margin-bottom: 20px;
+    text-align: center;
+}
+form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #5d2e3f;
+}
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+}
+form input:focus {
+    outline: none;
+    border-color: #e07e7e;
+    box-shadow: 0 0 5px rgba(224, 126, 126, 0.5);
+}
+button {
+    width: 100%;
+    background-color: #ffa3a3;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+button:hover {
+    background-color: #e07e7e;
+}
+
+footer {
+    
+    color: #5d2e3f;
+    text-align: center;
+    padding: 10px 0;
+    background-color: #e07e7e;
+}
